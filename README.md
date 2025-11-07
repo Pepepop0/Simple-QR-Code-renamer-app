@@ -2,26 +2,6 @@
 # 🧾 Simple QR Code Renamer App
 A lightweight TUI (Text User Interface) application that automatically **detects QR codes in images** and **renames or organizes files** based on their decoded text.
 Built with [Textual](https://textual.textualize.io/) and [OpenCV](https://opencv.org/).
-
----
-
-## Features
-
-* Detects and reads QR codes from image files (`.jpg`, `.jpeg`, `.png`)
-* Automatically creates input (`imgs-raw`) and output (`images_new`) folders
-* Refresh button to recheck available images
-* Progress bar and live color-coded log output
-* Simple interface that runs directly in the terminal (no IDE required)
-
----
-
-## Techs
-
-* **Python 3.11+**
-* **Textual** — for the TUI interface
-* **OpenCV** — for QR code detection
-* **Asyncio** — to keep the interface responsive during processing
-
 ---
 ## Installation
 
