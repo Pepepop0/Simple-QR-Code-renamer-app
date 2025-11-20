@@ -60,6 +60,7 @@ class QRApp(App):
         yield Button("🔄 Atualizar lista", id="refresh")
         yield ProgressBar(id="progress", show_percentage=True)
         yield Log(id="log")
+        yield Static("v.1.1")
         yield Footer()
 
 
